@@ -1,0 +1,20 @@
+{
+  "name": "npm_homework",
+  "version": "1.0.0",
+  "description": "Homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wpdev": "npx webpack --mode=development",
+    "wpprod": "npx webpack --mode=production"
+  },
+  "author": "Leonid M.",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4"
+  }
+}
